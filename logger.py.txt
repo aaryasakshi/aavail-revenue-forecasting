@@ -1,0 +1,7 @@
+import logging
+
+def get_logger():
+    logging.basicConfig(filename='app.log', level=logging.INFO)
+    return logging
+
+logger = get_logger()

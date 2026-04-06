@@ -1,0 +1,2 @@
+def predict(country, date):
+    return 1000
